@@ -9,7 +9,28 @@
       "UnauthRoleName": "amplify-amplifyapp-dev-8e81d-unauthRole",
       "StackName": "amplify-amplifyapp-dev-8e81d",
       "StackId": "arn:aws:cloudformation:us-east-1:058264394957:stack/amplify-amplifyapp-dev-8e81d/59ead530-2941-11ef-b94b-0e83cbd68c9d",
-      "AmplifyAppId": "d2n0zip8ln80zq"
+      "AmplifyAppId": "d2n0zip8ln80zq",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-8e81d-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2n0zip8ln80zq",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "amplifyapp1964a452": {}
+      },
+      "function": {
+        "amplifyapp1964a452CustomMessage": {
+          "REDIRECTURL": "https://main.d2n0zip8ln80zq.amplifyapp.com",
+          "EMAILSUBJECT": "Email Confirmation for the Amplify Application",
+          "EMAILMESSAGE": "Enter the verification code and it will redirected to web application",
+          "deploymentBucketName": "amplify-amplifyapp-dev-8e81d-deployment",
+          "s3Key": "amplify-builds/amplifyapp1964a452CustomMessage-4775463335317141764a-build.zip"
+        }
+      }
     }
   }
 }
